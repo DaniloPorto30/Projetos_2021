@@ -1,0 +1,48 @@
+/*************** Home pesquisar ***************/
+* {
+    text-decoration: none;
+    text-align: center;
+}
+.card{
+    display: flex;
+    border-radius: 12px;
+    width: 20em;
+    height: 27.9em;
+    margin:auto;
+    text-align: center;
+    background:linear-gradient(to right, #ffcd04be,#2b71b7d3);
+    flex-wrap: wrap;
+    grid-gap: 16px;
+}
+.btn-success{
+    margin-right: 8px;
+    margin-bottom: 10px;
+}
+.card img{
+    height:228px;
+}
+.card img:hover {
+    position: relative;
+    transform: scale(1.7);
+    transition: .1s;
+  }
+#pesquisar{
+    height: 50px;
+    width: 50px;
+}
+/*************** Foooter Pesquisa ******************/
+.card-body img{
+width:98em;
+}
+.card-footer{ 
+text-align: center;
+margin-top: 0.5em;
+background-color: #adff2f;
+padding: 8px 0px 0.4px 0px ;
+font-size: larger;
+}
+.logo-footer{
+  height: 60px;
+  width: 60px ;
+  margin-left: 10px ;
+}

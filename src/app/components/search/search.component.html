@@ -1,0 +1,28 @@
+
+<div class="search">
+    <h2>Buscar-Pokemon:</h2>
+  <input  type="text"[(ngModel)]="name">
+  <button (click)="buscar()" class="btn btn-link"><img id="pesquisar" src="{{pokebotton}}"></button>
+  </div>
+      <div class="card-hover center">
+      <div class="card" >
+          <img src="{{urlImage}}">
+          <h3>{{nome}}</h3>
+          <h5>Codigo: {{id}}</h5>
+          <h5>Altura: {{altura}}</h5>
+          <h5>Peso: {{peso}}</h5>
+      </div>    
+   
+    </div>
+    <div class="card-footer">
+      <strong>
+          <p> Desenvolvido por
+           <a href="https://www.linkedin.com/in/danilo-portor/"
+            target="_blank" rel="noopener">&nbsp;Danilo Porto Rosa
+           </a>
+          <span class="footer">#Pokémon</span>
+          <img class="logo-footer" [src]="pokefooter"></p>
+        </strong>
+    </div>
+  
+  

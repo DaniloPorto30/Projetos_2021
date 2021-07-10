@@ -1,0 +1,26 @@
+* {
+    text-decoration: none;
+}
+.card-body img{
+width:98em;
+}
+.card-footer{ 
+text-align: center;
+margin-top: 6.6em;
+background-color: #adff2f;
+padding: 12px 0px 0.4px 0px ;
+font-size: larger;
+}
+.logo-footer{
+  height: 60px;
+  width: 60px ;
+  margin-left: 10px ;
+}
+
+ /* Pokemon Grid responsivo mobile */
+
+ @media screen and (max-width: 375px) {
+  .card-body img{
+    width:22em;
+    }
+ }
